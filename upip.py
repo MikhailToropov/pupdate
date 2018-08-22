@@ -10,5 +10,6 @@ for i in strings[2:]:
 
 for i in moduls_list:
     os.system("pip3 install --upgrade "+i)
-    
+os.system("echo 0 > ~temp.txt")
 print("Update was successfully done")
+
